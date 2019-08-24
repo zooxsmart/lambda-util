@@ -1,6 +1,6 @@
 {
   "name": "@zooxsmart/lambda-util",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Zoox Smart utility functions for aws lambda",
   "main": "index.js",
   "author": {
