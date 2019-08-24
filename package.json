@@ -20,6 +20,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/zooxsmart/lambda-util.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "debug": "^4.1.1",
     "hal": "^1.2.0",
