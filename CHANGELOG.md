@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/zooxsmart/lambda-util/compare/1.0.2...1.0.3) (2019-08-28)
+
+
+### Bug Fixes
+
+* add more error classes and separate saveEntity to create/update ([60966fd](https://github.com/zooxsmart/lambda-util/commit/60966fd))
+
 ## [1.0.2](https://github.com/zooxsmart/lambda-util/compare/1.0.1...1.0.2) (2019-08-24)
 
 
