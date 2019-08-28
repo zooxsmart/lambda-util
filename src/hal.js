@@ -27,7 +27,7 @@ function toHalCollection(list, collectionName, collectionUrl, entityUrlBase, que
 
   const collectionObject = {
     page,
-    page_size: query.limit || 25,
+    page_size: parseInt(query.limit || 25, 10),
     count: entities.length,
   };
 

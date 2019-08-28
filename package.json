@@ -46,7 +46,8 @@
     "lint-staged": "^9.2.3"
   },
   "scripts": {
-    "lint": "eslint *.js src/*.js src/**/*.js"
+    "lint": "eslint *.js src/*.js src/**/*.js",
+    "lint-fix": "eslint --fix *.js src/*.js src/**/*.js"
   },
   "commitlint": {
     "extends": [
