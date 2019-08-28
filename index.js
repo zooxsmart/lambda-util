@@ -4,7 +4,7 @@ const hal = require('./src/hal');
 const configClient = require('./src/configClient');
 const Handler = require('./src/handler');
 const errors = require('./src/errors');
-const mixins = require('./src/mixin');
+const Mixins = require('./src/mixin');
 
 // noinspection JSUnusedGlobalSymbols
 module.exports = {
@@ -14,5 +14,5 @@ module.exports = {
   hal,
   configClient,
   errors,
-  mixins,
+  Mixins,
 };

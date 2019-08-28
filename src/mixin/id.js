@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 const has = require('lodash.has');
-const { uuid } = require('../uuid');
+const uuid = require('../uuid');
 const { BadRequest } = require('../errors');
 
 module.exports = (incomingOptions) => {
