@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/zooxsmart/lambda-util/compare/1.0.4...1.0.5) (2019-08-28)
+
+
+### Bug Fixes
+
+* fix id mixin v4 generator ([747d5fc](https://github.com/zooxsmart/lambda-util/commit/747d5fc))
+
 ## [1.0.4](https://github.com/zooxsmart/lambda-util/compare/1.0.3...1.0.4) (2019-08-28)
 
 
