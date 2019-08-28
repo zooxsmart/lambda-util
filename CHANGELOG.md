@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/zooxsmart/lambda-util/compare/1.0.3...1.0.4) (2019-08-28)
+
+
+### Bug Fixes
+
+* add mixins, handler ([2155295](https://github.com/zooxsmart/lambda-util/commit/2155295))
+
 ## [1.0.3](https://github.com/zooxsmart/lambda-util/compare/1.0.2...1.0.3) (2019-08-28)
 
 
