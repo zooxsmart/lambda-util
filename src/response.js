@@ -19,7 +19,7 @@ function createErrorResponse(statusCode, message, stringify = true) {
   return createResponse(
     statusCode,
     {
-      type: 'https://httpstatuses.com',
+      type: `https://httpstatuses.com/${statusCode}`,
       title: status[statusCode],
       code: statusCode,
       detail: message || status[statusCode],
