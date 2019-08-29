@@ -1,4 +1,4 @@
-const debug = require('debug')('lambda-mysql');
+const debug = require('debug')('lambda-util');
 const response = require('./response');
 const hal = require('./hal');
 const errors = require('./errors');
@@ -182,17 +182,8 @@ class Handler {
   }
 
   static handleError(err) {
-    if (err instanceof errors.BadRequest) {
-      return response.createErrorResponse(400, err.message);
-    }
-    if (err instanceof errors.ValidationError) {
-      return response.createErrorResponse(422, JSON.parse(err.message));
-    }
-    if (err instanceof errors.ConflictError) {
-      return response.createErrorResponse(409, JSON.parse(err.message));
-    }
-    if (err instanceof errors.NotFound) {
-      return response.createErrorResponse(404);
+    if (err instanceof errors.ApiError) {
+      return response.createErrorResponse(err.status, err.detail);
     }
 
     debug(err);
