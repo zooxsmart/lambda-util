@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/zooxsmart/lambda-util/compare/1.0.5...1.0.6) (2019-09-02)
+
+
+### Bug Fixes
+
+* add unauthorized error class ([fc16f10](https://github.com/zooxsmart/lambda-util/commit/fc16f10))
+
 ## [1.0.5](https://github.com/zooxsmart/lambda-util/compare/1.0.4...1.0.5) (2019-08-28)
 
 
